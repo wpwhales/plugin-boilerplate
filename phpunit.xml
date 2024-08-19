@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" bootstrap="tests/phpunit/bootstrap.php"
+
+         beStrictAboutTestsThatDoNotTestAnything="false"
+         backupGlobals="false" colors="true" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.5/phpunit.xsd" >
+  <testsuites>
+    <testsuite name="default">
+      <directory suffix="Test.php">tests/phpunit/testcases/</directory>
+    </testsuite>
+
+    <testsuite name="commands">
+      <directory suffix="TestCommand.php">tests/phpunit/testcases/Commands/</directory>
+    </testsuite>
+  </testsuites>
+  <coverage processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">app</directory>
+
+      <file>helpers.php</file>
+    </include>
+  </coverage>
+</phpunit>

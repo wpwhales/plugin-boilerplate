@@ -1,0 +1,8 @@
+vendor
+!resources/views/vendor
+.phpunit.result.cache
+build/*
+build/entrypoints.json
+build/manifest.json
+
+.idea/*
