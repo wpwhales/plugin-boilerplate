@@ -1,7 +1,5 @@
 <?php
 
-use FiteCard\Helpers\NodeServer;
-use FiteCard\Models\Event;
 
 defined("ABSPATH") || exit;
 /**

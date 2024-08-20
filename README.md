@@ -36,7 +36,7 @@ After cloning the repository, you will need to SSH into the plugin directory usi
 
 3. **Run the Initialization Script**:
    ```bash
-   php init-plugin.php
+   php plugin-init.php
    ```
 
    The script will guide you through entering the plugin name, version, namespace, and other details. It will also handle Composer dependencies by running `composer update` and `composer dump-autoload`.
